@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="rim" x1="80" y1="60" x2="440" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f472b6" />
+      <stop offset="0.45" stop-color="#c084fc" />
+      <stop offset="1" stop-color="#38bdf8" />
+    </linearGradient>
+    <radialGradient id="hub" cx="0.38" cy="0.3" r="0.85">
+      <stop stop-color="#fda4af" />
+      <stop offset="0.55" stop-color="#d946ef" />
+      <stop offset="1" stop-color="#7e22ce" />
+    </radialGradient>
+    <radialGradient id="sheen" cx="0.34" cy="0.24" r="0.8">
+      <stop stop-color="#ffffff" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="#07060f" />
+  <circle cx="256" cy="256" r="198" fill="#0b0716" stroke="url(#rim)" stroke-width="14" />
+
+  <g>
+    <path d="M256 256 L256 66 A190 190 0 0 1 420.5 161 Z" fill="#0e7490" />
+    <path d="M256 256 L420.5 161 A190 190 0 0 1 420.5 351 Z" fill="#7e22ce" />
+    <path d="M256 256 L420.5 351 A190 190 0 0 1 256 446 Z" fill="#be123c" />
+    <path d="M256 256 L256 446 A190 190 0 0 1 91.5 351 Z" fill="#0891b2" />
+    <path d="M256 256 L91.5 351 A190 190 0 0 1 91.5 161 Z" fill="#9333ea" />
+    <path d="M256 256 L91.5 161 A190 190 0 0 1 256 66 Z" fill="#c2410c" />
+  </g>
+
+  <circle cx="256" cy="256" r="190" fill="url(#sheen)" />
+  <circle cx="256" cy="256" r="70" fill="#0b0716" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3" />
+  <circle cx="256" cy="256" r="56" fill="url(#hub)" stroke="#ffffff" stroke-opacity="0.28" stroke-width="3" />
+  <circle cx="256" cy="256" r="18" fill="#0b0716" />
+  <circle cx="256" cy="256" r="7" fill="#f9a8d4" />
+
+  <path d="M256 22 L286 78 L226 78 Z" fill="#fb7185" stroke="#ffffff" stroke-opacity="0.55" stroke-width="4" stroke-linejoin="round" />
+</svg>
